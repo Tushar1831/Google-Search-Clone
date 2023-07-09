@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: arial, sans-serif;
+}
+
+header{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header #hyperlinks{
+    margin-right: 30px;
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+
+.header #hyperlinks a{
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.header #hyperlinks a:hover{
+    border-bottom: 1px solid black;
+}
+
+#searchEngine{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchEngine #input {
+    border: 1px solid #dfe1fd;
+    height: 30px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 700px;
+}
+
+#searchEngine #input:hover{
+    box-shadow: 0 0 5px lightgrey;
+}
+
+#searchEngine #input input{
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+#searchEngine #buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#searchEngine #buttons input{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 20px 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.advancedImage{
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.advancedImage img{
+    height: auto;
+}
+
+.advancedHeader #hyperlinks{
+    margin-right: 30px;
+    display: flex;
+    font-size: small;
+    color: black;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.advancedSubHeader {
+    border-bottom: 1px solid lightgray;
+}
+
+.advancedSubHeader h3{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.inputOne{
+    display: flex;
+    align-items: center;
+    max-width: auto;
+    width: auto;
+    margin: 40px 2% 0 45px;
+}
+
+.inputOne .advancedSearch{
+    width: 200px;
+    font-size: 12px;
+}
+
+.inputOne .searchBar{
+    min-width: 170px;
+    width: 50%;
+}
+
+.inputOne .searchBar input{
+    border-radius: 1px;
+    border: 1px solid #dfe1fd;
+    font-size: 12px;
+    color: black;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+
+.inputOne .rightToDo{
+    width: 35%;
+    min-width: 16px;
+    color: grey;
+    font-size: 12px;
+    padding: 30px;
+}
+
+#bold{
+    font-weight: bolder;
+}
+
+.inputOne .buttons{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons input{
+    background: #8ab4f8;
+    border-color: #8ab4f8;
+    color: white;
+    height: 30px;
+    width: 130px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    box-shadow: none;
+}
